@@ -1,0 +1,152 @@
+* {
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* ::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --white: #f1f6f9;
+  --blue: #394867;
+  --lightblue: #5883d8;
+  --purple: #d8bfd8;
+  --black: #212a3e;
+  --gray: #d3ddf1;
+  --lightgray: #d3d3d3;
+
+  /* Accent Colors */
+  --yellow: #ffc300;
+  --red: #c70039;
+  --green: #1abc9c;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.ml-2 {
+  margin-left: 8px;
+}
+
+.cut-through {
+  text-decoration: line-through;
+  cursor: not-allowed;
+}
+.leaflet-container{
+  position:absolute;
+  top:110px;
+  height:600px;
+  width:100%;
+}
+@media (max-width: 1316px) {
+  .leaflet-container{
+    top:199px;
+  }
+}
+@media (max-width: 1000px) {
+  .leaflet-container{
+    top:188px;
+    height:542px;
+  }
+}
+@media (max-width: 799px) {
+  .leaflet-container{
+    top:177px;
+    height:461px;
+  }
+}
+@media (max-width: 699px) {
+  .leaflet-container{
+    top:229px;
+    height:376px;
+  }
+}
+@media (max-width: 599px) {
+  .leaflet-container{
+    top:218px;
+    height:296px;
+  }
+}
+@media (max-width: 499px){
+  .leaflet-container{
+    top:210px;
+    height:209px;
+  }
+}
+@media (max-width: 249px) {
+  .leaflet-container{
+    top:233px;
+    height:214px;
+  }
+}
+@media (max-width: 210px) {
+  .leaflet-container{
+    top:266px;
+    height:212px;
+  }
+}
+@media (max-width: 201px) {
+  .leaflet-container{
+    top:285px;
+    height:214px;
+  }
+}
+@media (max-width: 143px) {
+  .leaflet-container{
+    top:370px;
+    height:214px;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1106px) {
+  .leaflet-container{
+    top:189px;
+    height:603px;
+  }
+}
+@media (min-width: 800px) and (max-width: 886px) {
+  .leaflet-container{
+    top:180px;
+    height:542px;
+  }
+}
+@media (min-width: 600px) and (max-width: 675px) {
+  .leaflet-container{
+    top:224px;
+    height:375px;
+  }
+}
+/* @media (max-width: 412px) and (max-height: 869px) { 
+  .leaflet-container{
+    top:204px;
+    height:407px;
+  }
+  .footer-container{
+    transform: translateY(200px);
+  }
+}    */
