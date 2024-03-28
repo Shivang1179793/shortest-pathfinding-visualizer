@@ -1,3 +1,11 @@
+This is a visualizer that finds the shortest path from a source to a destination, built using HTML, CSS, JavaScript, React.js, and data structures and algorithms (DSA). Dijkstra's algorithm is employed to find the shortest path, following the principles used in Google Maps. The project utilizes React.js along with the Leaflet library, an open-source mapping library that interfaces with OpenStreetMap (OSM) API, a free geographic database.
+
+React-Leaflet provides React components that seamlessly integrate with Leaflet, enabling the display and interaction with maps. The OSM API serves as the backend data source, providing map tiles and geographic data, which are then rendered by Leaflet through React-Leaflet.
+
+Users can select both the source and destination points on the map interactively. Additionally, a wall feature is incorporated, restricting the path where walls are placed. This means that paths cannot traverse through areas where walls are present, enhancing the realism of the visualization. Furthermore, users can assign weights to the paths, influencing the algorithm's preference for certain routes. Paths with lower weights are prioritized in the search for the shortest path on the map.
+
+In essence, this visualizer combines various technologies and algorithms to offer an interactive and dynamic platform for finding the shortest path between two points on a map, allowing users to customize their preferences and obstacles for an optimal route.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
